@@ -84,7 +84,7 @@ dependencies {
     // 5. Testing Library (For migration tests)
     testImplementation(libs.androidx.room.testing)
 
-    androidTestImplementation("androidx.room:room-testing:2.8.4")
+    androidTestImplementation(libs.androidx.room.testing)
 // kotlinx serialization library
     implementation(libs.kotlinx.serialization.json)
 
